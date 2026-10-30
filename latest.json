@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "dashboards": {
+    "otr": {
+      "version": "1.1.0",
+      "file": "otr.html",
+      "path": "dashboards/otr.html",
+      "size": 472228,
+      "sha256": "3cc89420879d21b72d84eb329cfd933a31f18f44f8dd6f79926309f4f5d578e2",
+      "released": "2026-10-30",
+      "notes": [
+        "Adds the Updates button: check and update the radio's firmware and this dashboard from the page.",
+        "Disconnect no longer closes the USB port, so it does not restart the radio."
+      ]
+    },
+    "tactical": {
+      "version": "1.1.0",
+      "file": "tactical.html",
+      "path": "dashboards/tactical.html",
+      "size": 579618,
+      "sha256": "4e9f4b999e6514671f10ce7637859e1200f3690883bb625ee1a224ee73b997fd",
+      "released": "2026-10-30",
+      "notes": [
+        "Adds the Updates button: check and update the radio's firmware and this dashboard from the page.",
+        "Disconnect no longer closes the USB port, so it does not restart the radio."
+      ]
+    },
+    "nova": {
+      "version": "1.1.0",
+      "file": "index.html",
+      "path": "dashboards/nova.html",
+      "size": 579601,
+      "sha256": "508b3a5e5e8295d7e40fb0053b2bdd9d6ef962d67c2568319cbb41072dcfb744",
+      "released": "2026-10-30",
+      "notes": [
+        "Adds the Updates button: check and update the radio's firmware and this dashboard from the page.",
+        "Disconnect no longer closes the USB port, so it does not restart the radio."
+      ]
+    }
+  }
+}
