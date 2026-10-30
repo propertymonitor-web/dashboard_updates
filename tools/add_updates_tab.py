@@ -17,8 +17,9 @@ def main():
     m = re.search(r'<button id="btnTheme"[^>]*>[^<]*</button>', t)
     if not m: sys.exit("no Theme button found in " + a.page)
     t = t[:m.end()] + BTN + t[m.end():]
-    if t.count("</body>") != 1: sys.exit("expected one </body> in " + a.page)
-    t = t.replace("</body>", frag + "</body>")
+    i = t.rfind("</body>")                       # the real end of the page (a page may also mention </body> inside a script)
+    if i < 0: sys.exit("no </body> in " + a.page)
+    t = t[:i] + frag + t[i:]
     open(a.page, "w", encoding="utf-8").write(t)
     print("updates tab added to", a.page, "(id", a.id + ", version", a.version + ")")
 

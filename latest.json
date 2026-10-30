@@ -2,39 +2,51 @@
   "schema": 1,
   "dashboards": {
     "otr": {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "file": "otr.html",
       "path": "dashboards/otr.html",
-      "size": 472228,
-      "sha256": "3cc89420879d21b72d84eb329cfd933a31f18f44f8dd6f79926309f4f5d578e2",
+      "size": 472549,
+      "sha256": "ff2afd460b97774f204deb6579c1b18747fe4b4e0b067702eeda0ef2273ed634",
       "released": "2026-10-30",
       "notes": [
-        "Adds the Updates button: check and update the radio's firmware and this dashboard from the page.",
-        "Disconnect no longer closes the USB port, so it does not restart the radio."
+        "Firmware updates also clear the boot-selection record, so a radio that took a Bluetooth update starts the new firmware.",
+        "The Updates screen is now in the CAIRN dashboard too."
       ]
     },
     "tactical": {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "file": "tactical.html",
       "path": "dashboards/tactical.html",
-      "size": 579618,
-      "sha256": "4e9f4b999e6514671f10ce7637859e1200f3690883bb625ee1a224ee73b997fd",
+      "size": 579939,
+      "sha256": "02002bb7b63496cac88d97200d57dd1fb928f6524a11bfe8f0df7fb4cb210765",
       "released": "2026-10-30",
       "notes": [
-        "Adds the Updates button: check and update the radio's firmware and this dashboard from the page.",
-        "Disconnect no longer closes the USB port, so it does not restart the radio."
+        "Firmware updates also clear the boot-selection record, so a radio that took a Bluetooth update starts the new firmware.",
+        "The Updates screen is now in the CAIRN dashboard too."
       ]
     },
     "nova": {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "file": "index.html",
       "path": "dashboards/nova.html",
-      "size": 579601,
-      "sha256": "508b3a5e5e8295d7e40fb0053b2bdd9d6ef962d67c2568319cbb41072dcfb744",
+      "size": 579922,
+      "sha256": "5cce5c397b973c4d2a1bdfdc22c955f738bd9aa727e932fd211d5a82a39979bb",
       "released": "2026-10-30",
       "notes": [
-        "Adds the Updates button: check and update the radio's firmware and this dashboard from the page.",
-        "Disconnect no longer closes the USB port, so it does not restart the radio."
+        "Firmware updates also clear the boot-selection record, so a radio that took a Bluetooth update starts the new firmware.",
+        "The Updates screen is now in the CAIRN dashboard too."
+      ]
+    },
+    "cairn": {
+      "version": "1.2.0",
+      "file": "index.html",
+      "path": "dashboards/cairn.html",
+      "size": 560806,
+      "sha256": "9528b4d07c16269644be654dfa4d1495c1fbb79fa4e31dcb008b0c6ab660bd4b",
+      "released": "2026-10-30",
+      "notes": [
+        "Firmware updates also clear the boot-selection record, so a radio that took a Bluetooth update starts the new firmware.",
+        "The Updates screen is now in the CAIRN dashboard too."
       ]
     }
   }
