@@ -41,16 +41,16 @@
       ]
     },
     "cairn": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "file": "index.html",
       "path": "dashboards/cairn.html",
-      "size": 581410,
-      "sha256": "5db4fc3d7cd34b89ba4b13d99c339380f83b7a5430330edc9364d4eaeb7cccda",
+      "size": 583234,
+      "sha256": "fca39f37aae7d85051d903855843c40c24bd74f953a291d8a2ff49c95809a02e",
       "released": "2026-11-01",
       "notes": [
-        "New: registered units. Register companions and repeaters by radio ID with a call sign (kept on the CAIRN radio; needs CAIRN firmware 1.4.0). Roster on the People tab, call signs on the map, radar and lists, movement trails, and a banner when a unit has not been heard for a while.",
-        "Trip line for a moving CAIRN: rounded corners, width follows the zoom, optional 'Snap trip to roads (online)'.",
-        "Map under the radar."
+        "New Units tab: bind companions and repeaters to this CAIRN by radio ID. Each gets a CRU ID (CRU-01, CRU-02...) and a name (needs CAIRN firmware 1.4.1 on the radio).",
+        "Call signs/names on the map, radar and lists, movement trails, and a banner when a unit has not been heard for a while.",
+        "Trip line for a moving CAIRN, optional snap to roads (online), map under the radar."
       ]
     }
   }
