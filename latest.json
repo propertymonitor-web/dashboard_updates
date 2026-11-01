@@ -41,15 +41,14 @@
       ]
     },
     "cairn": {
-      "version": "1.2.0",
+      "version": "1.3.2",
       "file": "index.html",
       "path": "dashboards/cairn.html",
-      "size": 560806,
-      "sha256": "9528b4d07c16269644be654dfa4d1495c1fbb79fa4e31dcb008b0c6ab660bd4b",
-      "released": "2026-10-30",
+      "size": 565577,
+      "sha256": "98d1bdb74013e449ca4891b10258dce5c458d773f15f67896345de21163e999c",
+      "released": "2026-11-01",
       "notes": [
-        "Firmware updates also clear the boot-selection record, so a radio that took a Bluetooth update starts the new firmware.",
-        "The Updates screen is now in the CAIRN dashboard too."
+        "New: a map under the radar (the same map as your Map tab) showing where heard contacts really are. Scale follows the farthest located contact plus 10 miles. Turn it off with 'Show map under radar'."
       ]
     }
   }
