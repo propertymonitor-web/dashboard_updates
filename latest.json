@@ -52,6 +52,17 @@
         "Call signs/names on the map, radar and lists, movement trails, and a banner when a unit has not been heard for a while.",
         "Trip line for a moving CAIRN, optional snap to roads (online), map under the radar."
       ]
+    },
+    "matrix": {
+      "version": "1.0.1",
+      "file": "matrix.html",
+      "path": "dashboards/matrix.html",
+      "size": 563745,
+      "sha256": "2cc419b6535c6f27fc430c8241bec1172289b2a6794621b1d176cdabbd6fb9b2",
+      "released": "2026-11-02",
+      "notes": [
+        "Firmware updates now ask which board you have (R2, R8 or V3) once and remember it."
+      ]
     }
   }
 }
