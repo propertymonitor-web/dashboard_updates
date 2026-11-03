@@ -37,6 +37,7 @@ a{color:var(--cy)}
 .foot{margin-top:22px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;color:var(--dim);font-size:.9em}
 .linkbtn{background:none;border:0;color:var(--cy);text-decoration:underline;padding:0}
 .serial{color:var(--ma)}
+#bbsPanel{border:2px solid var(--cy);padding:14px 16px;background:#000050}.bbsrow{display:grid;grid-template-columns:1fr auto auto;gap:4px 14px;align-items:center;padding:6px 4px;border-bottom:1px dashed var(--line)}.bbsrow .nm{color:var(--hi)}.bbsrow .best{color:#000066;background:var(--gr);padding:0 6px;font-weight:700}.bbsrow .meta{grid-column:1/-1;color:var(--dim);font-size:.88em}@media (max-width:760px){.bbsrow{grid-template-columns:1fr auto}}
 #own{border:2px solid var(--ma);padding:14px 16px;background:#000050}
 #own h2{margin:0 0 8px;font-size:1.1em;color:var(--ma)}
 #own p{margin:8px 0;max-width:68ch}
@@ -109,6 +110,13 @@ a{color:var(--cy)}
 <div class="under"><span>Status: <b id="status" class="ok">online</b> &nbsp; Link: <span id="link">-</span> &nbsp; <span id="polled"></span> <button id="refresh" class="mini">Check now</button></span>
 <span><button id="runOwnMain" class="linkbtn caller-only">Want to run your own Mesh BBS?</button> &nbsp; <button id="logoff" class="mini">Log off</button></span></div>
 </section>
+<aside id="bbsPanel" hidden style="max-width:980px;margin:14px auto 0">
+<h2 style="margin:0 0 6px;font-size:1.1em;color:var(--cy)">WAYPOST BBS radios your radio can hear</h2>
+<p class="dim" style="margin:0 0 10px">Press Test signal to message each one and measure the link, then connect to the best. Hops and signal come from the reply.</p>
+<div id="bbsList"></div>
+<div class="btnrow" style="margin-top:10px"><button id="bbsTest" class="btn">Test signal</button><button id="bbsBest" class="btn primary" disabled>Connect to best</button><button id="bbsRescan" class="btn">Look again</button><button id="bbsClose" class="linkbtn">Close</button></div>
+<p id="bbsNote" class="dim" style="margin:8px 0 0" aria-live="polite"></p>
+</aside>
 <aside id="own" hidden style="max-width:980px;margin:14px auto 0"><h2>Want to run your own Mesh BBS?</h2>
 <p>Contact: <a class="mail addr" href="#"></a> with the subject line: <b>Waypost BBS</b> and what County, City and State (or however that is formatted in your country) you would like to run your Waypost BBS in.</p>
 <p><a class="mail" href="#">Write the email</a> &nbsp; <button id="closeOwn" class="linkbtn">Close</button></p></aside>
