@@ -70,7 +70,7 @@ a{color:var(--cy)}
 .mini{background:none;border:1px solid var(--line);padding:2px 10px;color:var(--cy)}
 .mini:hover{background:var(--line);color:var(--hi)}
 #more{margin:0 14px 8px;align-self:flex-start;background:var(--ye);color:#000066;border:0;padding:4px 12px;font-weight:700}
-.own-in-main{margin-top:12px}
+#sysopForm{display:flex;flex-direction:column;gap:6px;padding:6px 8px;border:1px dashed var(--line)}#sysopForm input{background:#000040;color:var(--hi);border:1px solid var(--line);padding:5px;font:inherit;min-width:0}.own-in-main{margin-top:12px}
 @media (max-width:760px){body{padding:8px}.grid{grid-template-columns:1fr}.side{border-right:0;border-bottom:3px double var(--line);display:grid;grid-template-columns:repeat(3,1fr);gap:2px;padding:6px}.tile,.key{padding:4px 5px;grid-template-columns:1.5ch 1fr}.flag{grid-column:1/3;justify-self:start;font-size:.75em}.tnote{display:none}.sep{display:none}#extra{display:contents}.main{height:60vh}}
 </style></head><body>
 
@@ -81,6 +81,7 @@ a{color:var(--cy)}
 ██ ██  █   █    █    █      █   █      █    █
 █   █  █   █    █    █       ███   ████     █</pre>
 <p class="by">By: Lodestar</p>
+<p class="sysop-only warn" hidden>Remote sysop console. Connect YOUR companion radio by Bluetooth; it talks to the WAYPOST BBS radio over the mesh. First time: reply with a handle to register your companion as a caller, then enter your remote sysop code (set on the dashboard under Backups and account) to unlock read-only STATUS.</p>
 <div class="serial" hidden></div>
 <div class="rule" aria-hidden="true">════════════════════════════════════════════════════════════════════════════════════</div>
 <p class="lede">A bulletin board that runs on radio. Plug your MeshCore radio into this computer, press the button, and you are on the board. Messages, mail, news, the library and games travel over the mesh, not the internet.</p>
@@ -94,19 +95,19 @@ a{color:var(--cy)}
 <div id="picker" hidden><div>Pick the BBS from your radio's contacts. Tell your sysop if you cannot see it.</div><div id="pickList"></div><button id="look" class="btn" style="margin-top:8px">Look again</button></div>
 <div class="rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────────</div>
 <div class="foot"><span>Your radio needs the USB companion firmware. Close other apps that use the radio first.</span>
-<button id="runOwn" class="linkbtn">Want to run your own Mesh BBS?</button></div>
+<button id="runOwn" class="linkbtn caller-only">Want to run your own Mesh BBS?</button></div>
 <p class="dim" style="margin:18px 0 0;font-size:.85em">This page talks only to your radio. It has no account system and sends nothing to any server. Your handle and your new-item markers stay on your radio and in this browser.</p>
 </div></section>
 
 <section id="main" class="screen" hidden>
 <div class="bar"><span><b>WAYPOST</b> By: Lodestar</span><span class="serial" hidden></span><span id="who"></span></div>
 <div class="grid">
-<nav class="side" aria-label="Board menu"><div id="tiles" style="display:contents"></div><div class="sep"></div><div id="extra"></div></nav>
+<nav class="side" aria-label="Board menu"><div id="tiles" style="display:contents"></div><div class="sep"></div><form id="sysopForm" class="sysop-only" hidden><label for="sysopCode" class="dim">Remote sysop code</label><input id="sysopCode" type="password" autocomplete="off" placeholder="your remote code"><button class="send">Unlock status</button></form><div id="extra"></div></nav>
 <div class="main"><div id="term" role="log" aria-live="polite"></div><button id="more" hidden></button>
 <form id="cmd-form"><input id="cmd" autocomplete="off" maxlength="140" placeholder="Type a command or a message (? for help)" aria-label="Command"><span id="count">0/140</span><button class="send">Send</button></form></div>
 </div>
 <div class="under"><span>Status: <b id="status" class="ok">online</b> &nbsp; Link: <span id="link">-</span> &nbsp; <span id="polled"></span> <button id="refresh" class="mini">Check now</button></span>
-<span><button id="runOwnMain" class="linkbtn">Want to run your own Mesh BBS?</button> &nbsp; <button id="logoff" class="mini">Log off</button></span></div>
+<span><button id="runOwnMain" class="linkbtn caller-only">Want to run your own Mesh BBS?</button> &nbsp; <button id="logoff" class="mini">Log off</button></span></div>
 </section>
 <aside id="own" hidden style="max-width:980px;margin:14px auto 0"><h2>Want to run your own Mesh BBS?</h2>
 <p>Contact: <a class="mail addr" href="#"></a> with the subject line: <b>Waypost BBS</b> and what County, City and State (or however that is formatted in your country) you would like to run your Waypost BBS in.</p>
