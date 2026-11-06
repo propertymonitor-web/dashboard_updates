@@ -54,14 +54,14 @@
       ]
     },
     "matrix": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "file": "matrix.html",
       "path": "dashboards/matrix.html",
-      "size": 563745,
-      "sha256": "2cc419b6535c6f27fc430c8241bec1172289b2a6794621b1d176cdabbd6fb9b2",
-      "released": "2026-11-02",
+      "size": 565427,
+      "sha256": "6f8c4417009554d4f9ebeb66b2bd949e149c4135f45553d1d3404c8b15808cec",
+      "released": "2026-11-05",
       "notes": [
-        "Firmware updates now ask which board you have (R2, R8 or V3) once and remember it."
+        "Radar turns with your direction of travel while Follow me is on (heading-up). Tick box above the radar turns it off. Needs GPS movement; tested with sample data only."
       ]
     }
   }
