@@ -54,14 +54,14 @@
       ]
     },
     "matrix": {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "file": "matrix.html",
       "path": "dashboards/matrix.html",
-      "size": 565427,
-      "sha256": "6f8c4417009554d4f9ebeb66b2bd949e149c4135f45553d1d3404c8b15808cec",
-      "released": "2026-11-05",
+      "size": 567294,
+      "sha256": "33beb03b7c6c2ae1987ecfd582a4b4fb515ea210dd9f67fb95b84632ce14f585",
+      "released": "2026-11-06",
       "notes": [
-        "Radar turns with your direction of travel while Follow me is on (heading-up). Tick box above the radar turns it off. Needs GPS movement; tested with sample data only."
+        "Radar: new option 'Use this device's compass' turns the radar and map with the phone's compass, even standing still. Without it the radar follows GPS course while moving. Tested with simulated readings only."
       ]
     }
   }
