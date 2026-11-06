@@ -54,14 +54,14 @@
       ]
     },
     "matrix": {
-      "version": "1.0.3",
+      "version": "1.1.0",
       "file": "matrix.html",
       "path": "dashboards/matrix.html",
-      "size": 567294,
-      "sha256": "33beb03b7c6c2ae1987ecfd582a4b4fb515ea210dd9f67fb95b84632ce14f585",
+      "size": 580598,
+      "sha256": "f948559d16b2255be38ae232378ecf07da91d561f42d2e094216a00f03be2e9e",
       "released": "2026-11-06",
       "notes": [
-        "Radar: new option 'Use this device's compass' turns the radar and map with the phone's compass, even standing still. Without it the radar follows GPS course while moving. Tested with simulated readings only."
+        "New 'Replay last trace' button: full-screen replay of your last trip with stops (and how long), and the repeaters, companions and room servers heard along the way (hover for name and radio ID). Tested with simulated data only."
       ]
     }
   }
