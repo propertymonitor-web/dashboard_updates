@@ -54,14 +54,14 @@
       ]
     },
     "matrix": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "file": "matrix.html",
       "path": "dashboards/matrix.html",
-      "size": 580598,
-      "sha256": "f948559d16b2255be38ae232378ecf07da91d561f42d2e094216a00f03be2e9e",
+      "size": 580735,
+      "sha256": "17a517c9862a296fcd40148c7458e8872378f159a5982a10cf931d0f53855907",
       "released": "2026-11-06",
       "notes": [
-        "New 'Replay last trace' button: full-screen replay of your last trip with stops (and how long), and the repeaters, companions and room servers heard along the way (hover for name and radio ID). Tested with simulated data only."
+        "Can be added to a phone's home screen as an app icon when opened from its hosted web address. No other change."
       ]
     }
   }
