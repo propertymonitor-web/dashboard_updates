@@ -54,14 +54,14 @@
       ]
     },
     "matrix": {
-      "version": "1.1.1",
+      "version": "1.2.0",
       "file": "matrix.html",
       "path": "dashboards/matrix.html",
-      "size": 580735,
-      "sha256": "17a517c9862a296fcd40148c7458e8872378f159a5982a10cf931d0f53855907",
+      "size": 583381,
+      "sha256": "f955c52b248181fc119c4412c5fc65052a284a0c48fd73ad86e7ac44e93305b0",
       "released": "2026-11-06",
       "notes": [
-        "Can be added to a phone's home screen as an app icon when opened from its hosted web address. No other change."
+        "New 'Share trace' and 'Open a trace file' buttons: send a recorded trip from your phone to another device and replay it there. Tested with files in a browser only."
       ]
     }
   }
