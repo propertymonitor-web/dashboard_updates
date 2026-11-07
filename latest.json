@@ -57,8 +57,8 @@
       "version": "1.2.0",
       "file": "matrix.html",
       "path": "dashboards/matrix.html",
-      "size": 583381,
-      "sha256": "f955c52b248181fc119c4412c5fc65052a284a0c48fd73ad86e7ac44e93305b0",
+      "size": 583780,
+      "sha256": "49171065732b6fd93f56f4d220b63555c620849f2af089b2af0c7a38afc40e1a",
       "released": "2026-11-06",
       "notes": [
         "New 'Share trace' and 'Open a trace file' buttons: send a recorded trip from your phone to another device and replay it there. Tested with files in a browser only."
