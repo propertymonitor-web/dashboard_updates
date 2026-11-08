@@ -63,6 +63,138 @@
       "notes": [
         "New 'Share trace' and 'Open a trace file' buttons: send a recorded trip from your phone to another device and replay it there. Tested with files in a browser only."
       ]
+    },
+    "pulsar-heltec-mesh-solar": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-heltec-mesh-solar.html",
+      "path": "dashboards/pulsar-heltec-mesh-solar.html",
+      "size": 37952,
+      "sha256": "2692e41c32fba327b441eb2bb55197e5b23c69a9fd7309c9d2d4898a65bfd0e2",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-heltec-t114": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-heltec-t114.html",
+      "path": "dashboards/pulsar-heltec-t114.html",
+      "size": 37936,
+      "sha256": "2a5241d2ec2df25c835cc2608a8f2cc850c149467c91c555265f32c03c462bed",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-heltec-v3": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-heltec-v3.html",
+      "path": "dashboards/pulsar-heltec-v3.html",
+      "size": 37929,
+      "sha256": "d36c943ce2100bf19dec33fb15502ae24759d24142d9e7651bfff4966acbaf24",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-heltec-v4-r2": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-heltec-v4-r2.html",
+      "path": "dashboards/pulsar-heltec-v4-r2.html",
+      "size": 37941,
+      "sha256": "f6b42f1af6b59d8eb11779e58ea7b7d686d84c31c97c03385543d1765d691761",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-heltec-v4-r8": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-heltec-v4-r8.html",
+      "path": "dashboards/pulsar-heltec-v4-r8.html",
+      "size": 37947,
+      "sha256": "cbb38e193fcf983bb1d87080c6e6b4d8edc5bed1b8bda70d140d438648c7accb",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-lilygo-t-echo": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-lilygo-t-echo.html",
+      "path": "dashboards/pulsar-lilygo-t-echo.html",
+      "size": 37928,
+      "sha256": "4c5a8ec43b2e8fb6b73d435788dc47d8a9dba579bbee8582b8e2b0574509ef82",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-rak4631": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-rak4631.html",
+      "path": "dashboards/pulsar-rak4631.html",
+      "size": 37919,
+      "sha256": "83aa71026ac895c3b33f48312a262dab7610bdee24d5d9cd18a5bb8c73031f34",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-sensecap-p1pro": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-sensecap-p1pro.html",
+      "path": "dashboards/pulsar-sensecap-p1pro.html",
+      "size": 37970,
+      "sha256": "48355f6b50df1f9a457670f4da05a4034fc03a7fd586c18af3e9e46b334779b6",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-station-g2": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-station-g2.html",
+      "path": "dashboards/pulsar-station-g2.html",
+      "size": 37917,
+      "sha256": "580b82848b19ab902ab6fbe5dc500481c2ee9b62367da5eb9f36b0833d329250",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-tbeam-sx1262": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-tbeam-sx1262.html",
+      "path": "dashboards/pulsar-tbeam-sx1262.html",
+      "size": 37942,
+      "sha256": "b7c19daa6da9db828b6d512849178adc1753dbd6c2733c703493048dabf7d1b8",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-xiao-esp32s3": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-xiao-esp32s3.html",
+      "path": "dashboards/pulsar-xiao-esp32s3.html",
+      "size": 37953,
+      "sha256": "92b4a9a46869cc23dcecdedf69299d27c9f588ac3e8a5471329cf7ed3c664982",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
+    },
+    "pulsar-xiao-nrf52840": {
+      "version": "1.0.0-beta1",
+      "file": "pulsar-xiao-nrf52840.html",
+      "path": "dashboards/pulsar-xiao-nrf52840.html",
+      "size": 37960,
+      "sha256": "e76ffe858a5bb7d12445986a307f137bd28557601277f4f64d9746882bcddb23",
+      "released": "2026-11-08",
+      "notes": [
+        "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
+      ]
     }
   }
 }
