@@ -195,6 +195,17 @@
       "notes": [
         "First release of the LODESTAR PULSAR dashboard. Works over USB; Bluetooth and WiFi need firmware support that Pulsar does not have yet."
       ]
+    },
+    "matrix-range": {
+      "version": "1.2.0",
+      "file": "matrix-range.html",
+      "path": "dashboards/matrix-range.html",
+      "size": 623557,
+      "sha256": "355118ac10d72ca82e6dcb86b06c946584f6296e7bb04fca8fcf7638f7dbc529",
+      "released": "2026-11-10",
+      "notes": [
+        "Optional second Matrix dashboard: the standard dashboard plus a range-estimate tile that uses today's weather. Estimates only; tested in a browser with practice data, not against real-world range."
+      ]
     }
   }
 }
